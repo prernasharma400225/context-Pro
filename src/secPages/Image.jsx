@@ -46,7 +46,7 @@ const Image = () => {
                 slidesPerView={4}
                 loop={true}
                 navigation={false}
-                pagination={{clickable: true}}
+                pagination={false}
             >
 
                 {imagesData.map((elem, idx) => {

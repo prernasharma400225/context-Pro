@@ -47,7 +47,7 @@ const SwiperImg = () => {
         slidesPerView="auto"
         loop={true}
         navigation={false}
-        pagination={{ clickable: true }}
+        pagination={false}
       >
         {Data.map((elem, idx) => {
           return (
