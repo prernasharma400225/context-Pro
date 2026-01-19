@@ -1,18 +1,18 @@
 import React, { useContext } from 'react'
-import { useNavigate } from 'react-router-dom'
+import Section from '../secPages/Section'
+import Section1 from '../secPages/Section1'
+
 
 
 const Home = () => {
 
-    const navigate = useNavigate()
+    
     
 
   return (
     <div>
-      <h2>Products Details yaha payi jati h</h2>
-      <button onClick={()=>{
-        navigate('/products')
-      }}>explore products</button>
+      <Section/>
+      <Section1/>
     </div>
   )
 }

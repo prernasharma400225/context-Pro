@@ -25,8 +25,11 @@ const Products = () => {
     }
 
     return (
-        <div className='flex flex-wrap items-center justify-center p-10 gap-10 bg-zinc-900 text-black w-full '>
-            {renderData}
+        <div className='text-center'>
+            <h1 className='text-6xl'>Collection</h1>
+            <div className='flex flex-wrap items-center justify-center p-10 gap-10 bg-zinc-900 text-black w-full '>
+                {renderData}
+            </div>
         </div>
     )
 }

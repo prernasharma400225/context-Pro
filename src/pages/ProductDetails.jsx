@@ -12,6 +12,7 @@ const ProductDetails = () => {
 
   return (
     <div>
+      
       <div className='h-72 w-52 '>
         <div className='h-56 w-52 bg-zinc-200 rounded-2xl p-2 '>
           <img className='h-full w-full object-top object-cover' src={selectedProduct?.image} alt="" />

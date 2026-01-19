@@ -5,16 +5,22 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Products from './pages/Products'
 import ProductDetails from './pages/ProductDetails'
+import Contact from './pages/Contact'
+import About from './pages/About'
+import Navbar from './components/Navbar'
 
 
 const App = () => {
 
 
   return (
-    <div className='bg-zinc-900 w-full h-screen text-white'>
+    <div className='w-full h-full text-white bg-linear-to-bl from-indigo-800 to-indigo-200'>
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
         <Route path='/products' element={<Products/>}/>
+        <Route path='contact' element={<Contact/>}/>
         <Route path='/products/:productId' element={<ProductDetails/>}/>
       </Routes>
     </div>
