@@ -13,7 +13,7 @@ const Section = () => {
                 <h1 className='text-6xl font-semibold uppercase'>Soft Comfort <br /> Bold Looks</h1>
                 <div className='flex flex-col gap-3'>
                     <p className='text-xs text-violet-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis et nam laborum consectetur cupiditate debitis reprehenderit consequatur delectus doloribus ullam.</p>
-                    <button className='border-2  w-fit py-1 px-4 text-xl font-semibold rounded-full hover:bg-violet-700 ' onClick={() => {
+                    <button className='border-2  w-fit py-1 px-4 text-xl font-semibold rounded-full hover:bg-violet-200 ' onClick={() => {
                         navigate('/products')
                     }}>Collection</button>
                 </div>
